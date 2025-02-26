@@ -993,11 +993,13 @@
 #define ITEM_POKESHI_DOLL 827
 
 #define ITEM_STRANGE_BALL 828
+#define ITEM_HYPER_CANDY 829 //if youve another item thats the same number, make the number higher
+// example if you the endless candy define as 829, make the hyper candy 830 and change ITEMS_COUNT to 831 since ITEMS_COUNT is counts too. Original name was Super Candy, Credit to AlexOn1ine
 
 // HOPO BERRY
 // LEGEND PLATE
 
-#define ITEMS_COUNT 829
+#define ITEMS_COUNT 830
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // A special item id associated with "Cancel"/"Exit" etc. in a list of items or decorations
